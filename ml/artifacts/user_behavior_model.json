@@ -1,0 +1,54 @@
+{
+  "source": {
+    "name": "UCI Online Shoppers Purchasing Intention Dataset",
+    "url": "https://archive.ics.uci.edu/dataset/468/online+shoppers+purchasing+intention+dataset",
+    "raw_data": "ml/data/online_shoppers_intention.csv"
+  },
+  "trained_at_utc": "2026-02-20T07:15:49.311991+00:00",
+  "feature_order": [
+    "views",
+    "add_to_cart",
+    "searches",
+    "clicks",
+    "discount_percent",
+    "recency_days"
+  ],
+  "normalization": {
+    "mean": [
+      32.05180454176804,
+      0.2916926011985609,
+      0.5123682076236821,
+      34.89770884022709,
+      7.742700729927007,
+      9.033556366585564
+    ],
+    "std": [
+      45.027056081733555,
+      0.9257842520902902,
+      1.28005201411007,
+      47.08460077124031,
+      8.887960445525826,
+      6.653239922336897
+    ]
+  },
+  "model": {
+    "weights": [
+      0.10410616474568374,
+      1.5569559398083175,
+      0.05365675828956252,
+      0.16353476583635151,
+      -0.12930511935672606,
+      -0.30577254885121224
+    ],
+    "bias": -1.999834133477083
+  },
+  "metrics": {
+    "accuracy": 0.8819951338199513,
+    "precision": 0.7861271676300579,
+    "recall": 0.3487179487179487,
+    "f1": 0.4831261101243339,
+    "auc": 0.9134862407983795
+  },
+  "train_rows": 9864,
+  "test_rows": 2466
+}

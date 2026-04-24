@@ -1,0 +1,19 @@
+{
+  "buildCommand": "npm --workspace frontend run build",
+  "outputDirectory": "frontend/dist",
+  "installCommand": "npm install && npm --workspace backend run prisma:generate",
+  "framework": "vite",
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/[...route]"
+    },
+    {
+      "handle": "filesystem"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
+    }
+  ]
+}
