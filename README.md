@@ -1,4 +1,4 @@
-# AI-Enhanced Deal & Discount Platform (MSc Starter)
+# AI-Enhanced Deal & Discount Platform 
 
 Full-stack starter for a personalized ecommerce promotion platform.
 
